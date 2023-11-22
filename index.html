@@ -3,7 +3,10 @@
 
 <head>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Leon company</title>
 </head>
 
@@ -19,15 +22,15 @@
             </ul>
 
         </div>
-        <div id="companyName">
+        <div id="companyName" class="animate__animated animate__fadeInDown">
             leon company
         </div>
     </header>
 
     <section id="about">
         <div id="aboutContent">
-            <img src="assets/leon-logo-2.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et voluptas possimus repellat nam
+            <img src="assets/leon-logo-2.png" alt="" data-aos="fade-right">
+            <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et voluptas possimus repellat nam
                 ipsa minima fugiat culpa, officia distinctio totam tenetur ipsum animi, quo sit consectetur, iste quis
                 numquam.</p>
         </div>
@@ -88,7 +91,7 @@
                     <p>"ha sido una gran experiencia"</p>
                     <span>david mazo</span>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -98,10 +101,16 @@
             <ul>
                 <li><img src="/assets/fb.png" alt=""></li>
                 <li><img src="/assets/ig.png" alt=""></li>
+                <li><img src="/assets/tw.png" alt=""></li>
             </ul>
 
         </div>
+        <h3>© 2023 Leon Company. Derechos Reservados</h3>
     </footer>
+
+    <script>
+        AOS.init({ duration: 1200 });
+    </script>
 
 </body>
 
