@@ -154,11 +154,12 @@ footer{
     text-align: center;
 }
 footer div{
-    width: 50%;
+    width: 100%;
 }
+
 footer div ul li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 0px;
     font-weight: bold;
 }
 
