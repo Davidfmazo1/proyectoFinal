@@ -16,6 +16,7 @@ header {
 
 header #companyName {
     text-align: center;
+    margin-top: 7%;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -44,17 +45,119 @@ header #nav ul li #loginLink {
 
 #about {
     text-align: center;
-    height: 30%;
+    height: 50%;
+
+}
+
+#about #aboutContent {
+    padding: 5%;
     display: flex;
     flex-direction: row;
 }
 
-#about p{
+#about #aboutContent p {
     width: 80%;
     margin-left: 10%;
 }
 
-#about p img{
-    width: 20%;
-    height: 20%;
+#about #aboutContent img {
+    width: 50%;
+    height: 50%;
+}
+
+#services {
+    text-align: center;
+    height: 50%;
+    background-color: rgb(236, 240, 243);
+}
+
+#services #servicesContent{
+    padding: 4%;
+}
+
+#services h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+#services #items {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+
+#services #items #item {
+    width: 25%;
+    height: 40%;
+    border: solid 1px black;
+   margin-right: 2%;
+}
+
+#services #items #item img{
+   width: 100%;
+}
+
+#services #items #item #itemInfo{
+    text-align: left;
+    padding: 5%;
+}
+
+#clients{
+    text-align: center;
+    height: 50%;
+}
+
+#clients h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#clients #reviews{
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+}
+
+#clients #reviews #review{
+    width: 25%;
+    height: 40%;
+   margin-right: 7%;
+}
+
+
+#clients #reviews #review #avatar{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 1px;
+    border-color: rgba(184, 53, 6, 0.801);
+    height: 150px;
+    background-image: url(/assets/avatar1.png) ;
+    background-size:100% 100%;  
+}
+
+#clients #reviews #review p{
+    font-style: italic;
+}
+
+#clients #reviews #review span{
+    font-weight: bold;
+}
+
+footer{
+    height: 40%;
+    background-color: rgb(236, 240, 243);
+    text-align: center;
+}
+
+footer div ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+footer div ul li img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
 }
