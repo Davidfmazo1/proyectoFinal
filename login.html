@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="/assets/leon-logo-2.png" type="image/x-icon">
     <script src="./js/main.js"></script>
     <title>Leon company</title>
 </head>
@@ -18,8 +19,8 @@
         <div id="content">
             <h1>inicia sesion</h1>
             <form onsubmit="return inicio(event)" action="">
-                <input type="text" placeholder="ingrese su correo" id="correo"><br>
-                <input type="text" placeholder="ingrese su contraseña" id="contrasena"><br>
+                <input type="text" placeholder="ingrese su correo" id="correo" required><br>
+                <input type="text" placeholder="ingrese su contraseña" id="contrasena" required><br>
                 <input type="submit" value="login" id="submit">
                 <div>
                     <span id="registro">no tienes cuenta? <a href="/signup.html">Registrate</a></span>
