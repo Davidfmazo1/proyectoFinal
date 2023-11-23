@@ -17,9 +17,9 @@
     <div id="wrap">
         <div id="content">
             <h1>inicia sesion</h1>
-            <form action="">
-                <input type="text" placeholder="ingrese su correo"><br>
-                <input type="text" placeholder="ingrese su contraseña"><br>
+            <form onsubmit="return inicio(event)" action="">
+                <input type="text" placeholder="ingrese su correo" id="correo"><br>
+                <input type="text" placeholder="ingrese su contraseña" id="contrasena"><br>
                 <input type="submit" value="login" id="submit">
                 <div>
                     <span id="registro">no tienes cuenta? <a href="/signup.html">Registrate</a></span>

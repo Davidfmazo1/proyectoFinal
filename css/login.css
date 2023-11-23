@@ -54,21 +54,13 @@ header #companyName {
     font-size: 20px;
     text-align: left;
     padding-top: 5%;
-    /* padding-left: 25%; */
     border-radius: 20%;
-    /* height: 20px; */
     text-align: center;
     font-style: italic;
     filter: brightness(50%);
 }
 
 
-#content form span {
-    text-transform: capitalize;
-    font-weight: bold;
-    margin: 5%;
-    margin-right: 10%;
-}
 
 #content form input {
     text-align: center;
@@ -80,10 +72,6 @@ header #companyName {
     width: 75%;
 }
 
-#content form input:hover {
-    /* background: -webkit-linear-gradient(rgb(97, 94, 94), azure, rgb(22, 25, 26)); */
-}
-
 #content form #submit {
     height: 10px;
     width: 75%;
@@ -92,7 +80,6 @@ header #companyName {
     text-align: center;
     margin-top: 10%;
     border: none;
-    /* margin-left: 25%; */
     background: rgb(246 67 2 / 80%);
     text-transform: uppercase;
     font-weight: bold;

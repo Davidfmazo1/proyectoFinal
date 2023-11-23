@@ -17,7 +17,7 @@ header {
 
 header #companyName {
     text-align: center;
-    margin-top: 7%;
+    padding-top: 12%;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -26,23 +26,35 @@ header #companyName {
 header #nav {
     width: 100%;
     background-color: #fff;
-    height: 10%;
+    height: 12%;
     position: fixed;
     top: 0;
     z-index: 999999;
 }
 
 header #nav ul {
+    padding-top: 2%;
     list-style: none;
-
 }
 
 header #nav ul li {
     display: inline-block;
     margin-right: 15px;
-    font-weight: bold;
+    cursor: pointer;
+}
+header #nav ul li button{
+    border: none;
+    background-color: rgba(184, 53, 6, 0.801);
+    border-radius: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
+header #nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 header #nav ul li #loginLink {
     text-align: right;
 }
@@ -156,7 +168,9 @@ footer{
 footer div{
     width: 100%;
 }
-
+footer div ul{
+    padding: 4%;
+}
 footer div ul li{
     display: inline-block;
     margin-right: 0px;
@@ -167,4 +181,5 @@ footer div ul li img{
     border-radius: 50%;
     width: 20%;
     height: 20%;
+    cursor: pointer;
 }

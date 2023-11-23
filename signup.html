@@ -14,26 +14,22 @@
             leon company
         </div>
     </header>
-    <div id="content">
-        <h1>Registrate</h1>
-        <form action="">
-            <span>nombre</span>
-            <input type="text"><br>
-            <span>apellidos</span>
-            <input type="text"><br>
-            <span>correo</span>
-            <input type="text"><br>
-            <span>contraseña</span>
-            <input type="text"><br>
-            <span>genero</span>
-            <input type="text"><br>
-            <input type="submit" value="signup" id="submit">
-        </form>
-        <div>
-            <span id="registro">ya tienes cuenta? <a href="/login.html">inicia sesion</a></span>
+    <div id="wrap">
+        <div id="content">
+            <h1>Registrate</h1>
+            <form onsubmit="return registro(event)" action="">
+                <input type="text" id="nombre" required placeholder="escriba su nombre"><br>
+                <input type="text" id="apellido" required placeholder="escriba su apellido"><br>
+                <input type="text" id="correo" required placeholder="escriba su correo" type="email"><br>
+                <input type="text" id="contrasena" required placeholder="escriba su contraseña"><br>
+                <input type="text" id="genero" required placeholder="escriba su genero"><br>
+                <input type="submit" value="signup" id="submit">
+            </form>
+            <div>
+                <span id="registro">ya tienes cuenta? <a href="/login.html">inicia sesion</a></span>
+            </div>
         </div>
     </div>
-
 
 </body>
 

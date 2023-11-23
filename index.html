@@ -10,17 +10,18 @@
     <title>Leon company</title>
 </head>
 
-<body>
+<body onload="asignarNombre()">
     <header>
         <div id="nav">
             <ul>
-                <li>inicio</li>
-                <li>acerca de</li>
-                <li>servicios</li>
-                <li>reseñas</li>
-                <li id="loginLink">inicio sesión</li>
+                <li><a href="#companyName">inicio</a></li>
+                <li><a href="#about">acerca de</a></li>
+                <li><a href="http:#services">servicios</a></li>
+                <li><a href="http:#reviews">reseñas</a></li>
+                <li id="loginLink"><a href="http:login.html">inicio sesión</a></li>
+                <li> <button onclick="cerrar()">cerrar sesion</button></li>
+                <li id="user"></li>
             </ul>
-
         </div>
         <div id="companyName" class="animate__animated animate__fadeInDown">
             leon company
@@ -30,7 +31,8 @@
     <section id="about">
         <div id="aboutContent">
             <img src="assets/leon-logo-2.png" alt="" data-aos="fade-right">
-            <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et voluptas possimus repellat nam
+            <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et voluptas
+                possimus repellat nam
                 ipsa minima fugiat culpa, officia distinctio totam tenetur ipsum animi, quo sit consectetur, iste quis
                 numquam.</p>
         </div>
